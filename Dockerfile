@@ -10,4 +10,4 @@ WORKDIR /app
 COPY --from=builder /app/glance .
 
 EXPOSE 8080/tcp
-ENTRYPOINT ["/app/glance", "--config", "/app/glance.yml"]
+ENTRYPOINT ["/app/glance", "--config", "/app/assets/glance.yml"]
