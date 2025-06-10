@@ -4,4 +4,4 @@ WORKDIR /app
 COPY glance .
 
 EXPOSE 8080/tcp
-ENTRYPOINT ["/app/glance", "--config", "/app/glance.yml"]
+ENTRYPOINT ["/app/glance", "--config", "/app/assets/glance.yml"]
